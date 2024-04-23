@@ -1,0 +1,90 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+  margin: auto;
+  margin-top: 200px;
+  padding-bottom: 30px;
+  width: 600px;
+  border-radius: 10px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  margin: 30px auto;
+}
+.text {
+  color: rgb(237, 55, 45);
+  font-weight: bold;
+  font-size: 40px;
+}
+.underline {
+  height: 6px;
+  width: 65px;
+  border-radius: 9px;
+  background-color: rgb(237, 55, 45);
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 10px;
+}
+.input {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin-top: 20px;
+  width: 480px;
+  height: 80px;
+  background: rgb(215, 213, 213);
+  border-radius: 6px;
+  gap: 5px;
+}
+.input img {
+  margin: 0 30px;
+}
+
+input {
+  height: 50px;
+  width: 300px;
+  background: transparent;
+  outline: none;
+  border: none;
+  font-size: 20px;
+}
+.forgotpass {
+  font-size: 19px;
+}
+.forgotpass span {
+  cursor: pointer;
+  color: #4c00b4;
+}
+
+.submition {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin: 50px auto;
+}
+.submit {
+  width: 200px;
+  height: 59px;
+  background-color: rgb(237, 55, 45);
+  border-radius: 50px;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 19px;
+  font-weight: 700;
+  color: #ffff;
+  cursor: pointer;
+}
+
+.buttonfade {
+  background: rgb(175, 170, 170);
+}
